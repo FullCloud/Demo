@@ -31,49 +31,46 @@
 		<div class="navbar-inner">
 			
 			<div class="container">
-				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </a>
                 
 				<a class="brand" href="#">Full Cloud</a>
-				
-				<div class="user-options-btn btn-group pull-right">
-					<a class="btn dropdown-toggle" data-toggle="dropdown" href="#"> <i class="icon-user"></i> Username <span class="caret"></span> </a>
-					<ul class="dropdown-menu">
-						<li>
-							<a href="#" class="option math"><i class="icon-none icon-ok"></i> Use Math</a>
-						</li>
-						<li>
-							<a href="#" class="option show-carousel"><i class="icon-none icon-ok"></i> Show Carousel</a>
-						</li>
-						<li>
-							<a href="#" class="option code"><i class="icon-none icon-ok"></i> Code Highlighting</a>
-						</li>
-						<li class="divider"></li>
-						<li>
-							<a href="#"><i class="icon-none"></i> Sign Out</a>
-						</li>
-					</ul>
+                
+				<div class="pull-right">
+    			    <a class="user-btn btn" data-toggle="dropdown" href="#"> <i class="icon-user"></i> Sign-up </a>
 				</div>
-                <!--
-				<div class="nav-collapse">
-					<ul class="nav">
-						<li class="active">
-							<a href="#">Home</a>
-						</li>
-						<li>
-							<a href="#about">About</a>
-						</li>
-						<li>
-							<a href="#contact">Contact</a>
-						</li>
-					</ul>
-				</div>
-                -->
-                <!--/.nav-collapse -->
-				
+                
+                <div class="login">
+    		        <form class="form-horizontal pull-right">
+                        <div class="control-group">
+                            <label class="control-label" for="inputUsername">Username</label>
+                            <div class="controls">
+                                <input type="text" id="inputUsername" name="username" placeholder="Username">
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label" for="inputPassword">Password</label>
+                            <div class="controls">
+                                <input type="password" id="inputPassword" name="password" placeholder="Password">
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="controls">
+                                <label class="checkbox">
+                                    <input type="checkbox" name="newuser">I'm new. Sign me up!</label>
+                            </div>
+                        </div>
+                        <div class="register control-group">
+                            <label class="control-label" for="inputEmail">We'll need an Email</label>
+                            <div class="controls">
+                                <input type="email" id="inputEmail" name="email" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="controls">
+                                <button type="submit" class="btn">Sign in</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
 			</div>
 		</div>
 	</div>

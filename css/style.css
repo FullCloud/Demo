@@ -25,8 +25,33 @@ body > header h3 {
     border-radius: 0;
 }
 
+.navbar label {
+    color: #fff;
+}
+
 body > .container {
     margin: 0 20px;
+}
+
+.login form {
+    display: none;
+    clear: both;
+}
+
+.login.open form {
+    display: block;
+}
+
+.login.loggedin form {
+    display: none;
+}
+
+.login .register {
+    display: none;
+}
+
+.login.newuser .register {
+    display: block;
 }
 
 /* Landscape phones and down */
