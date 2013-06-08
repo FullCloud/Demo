@@ -11,12 +11,8 @@ function($, sourceConfig){
   requirejs.config(sourceConfig);
   
   require(
-  ["modernizr", "widgets/snapnav", "prettify", 'prettify-css', "bootstrap", "widgets/userprefs-button"],
-  function(Modernizr, snapNav, prettyPrint, prettifyCSS, bootstrap, userPrefsButton) {
-      
-    snapNav('.navbar', {
-      header: 'body > header'
-    });
+  ["modernizr", "prettify", 'prettify-css', "bootstrap", "widgets/userprefs-button"],
+  function(Modernizr, prettyPrint, prettifyCSS, bootstrap, userPrefsButton) {
       
     prettyPrint();
     

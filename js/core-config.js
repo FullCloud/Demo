@@ -3,7 +3,7 @@ define({
     'text': 'vendor/text',
     'domReady': 'vendor/domReady',
     'modernizr': 'vendor/modernizr-2.5.3.min',
-    'jquery': 'vendor/jquery-1.7.2.min',
+    'jquery': 'vendor/jquery',
     'underscore': 'vendor/underscore-min',
     'backbone': 'vendor/backbone-min'
   },
