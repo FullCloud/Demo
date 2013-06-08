@@ -1,4 +1,4 @@
-Demo
+Full Cloud Jacket
 ====
 
-Demo app for full cloud and parse app
+Demo app for full cloud app creation.
