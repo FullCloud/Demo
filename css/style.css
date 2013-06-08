@@ -10,6 +10,12 @@ body > header {
     background: url("../img/bigab.png") no-repeat 20px center;
     background-color: #ffff3d;
     padding: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 body > header h3 {
@@ -17,7 +23,7 @@ body > header h3 {
   font-family: Times New Roman;
   font-size: 56px;
   line-height: 1.2;
-  margin-left: 205px;
+  margin-left: 150px;
   text-shadow: 0 1px 1px #000000, -1px -1px 3px #000000;
 }
 
