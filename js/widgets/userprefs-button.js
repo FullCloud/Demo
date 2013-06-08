@@ -50,6 +50,8 @@ define(["jquery", "underscore", "domReady", "parse", "jquery-gravatar"], functio
                 }
             });
             
+            $button.show();
+            
             function signedin(yes) {
                 var currentUser = Parse.User.current();
                 var defaultImage = location.href.replace('index.html', 'img/hipster30.png');

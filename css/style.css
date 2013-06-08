@@ -33,6 +33,10 @@ body > .container {
     margin: 0 20px;
 }
 
+.user-btn {
+    display: none;
+}
+
 .login form {
     display: none;
     clear: both;
