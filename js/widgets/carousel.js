@@ -12,7 +12,7 @@ function(Backbone, _, bootstrap, md5, Handlebars, tmplt) {
                 // integer size: between 1 and 512, default 80 (in pixels)
                 size: 254,
                 // url to define a default image (can also be one of: identicon, monsterid, wavatar)
-                image: location.href.replace('index.html', 'img/'+anonImage)
+                image: location.href.replace('index.html', '')+'img/'+anonImage
             };
             
             var src = '//www.gravatar.com/avatar/' + md5(emailAddress) + '.jpg?' + (options.size ? 's=' + options.size + '&' : '') + (options.rating ? 'r=' + options.rating + '&' : '') + (options.image ? 'd=' + encodeURIComponent(options.image) : '');
