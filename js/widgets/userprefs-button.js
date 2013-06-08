@@ -11,7 +11,6 @@ define(["jquery", "underscore", "domReady", "parse", "jquery-gravatar"], functio
 			});
             
             $login.find('input[name=newuser]').change(function(e){
-                console.log($(this));
                 $login.toggleClass('newuser', $(this).is(':checked'));
             }).trigger('change');
             
@@ -35,7 +34,6 @@ define(["jquery", "underscore", "domReady", "parse", "jquery-gravatar"], functio
                         },
                         error: function(user, error) {
                             // Show the error message somewhere and let the user try again.
-                            debugger;
                             alert("Error: " + error.code + " " + error.message);
                         }
                     });
@@ -46,7 +44,6 @@ define(["jquery", "underscore", "domReady", "parse", "jquery-gravatar"], functio
                             signedin(true);
                         },
                         error: function(user, error) {
-                            debugger;
                             alert("Error: " + error.code + " " + error.message);
                         }
                     });

@@ -5,7 +5,8 @@ define({
     'modernizr': 'vendor/modernizr-2.5.3.min',
     'jquery': 'vendor/jquery',
     'underscore': 'vendor/underscore-min',
-    'backbone': 'vendor/backbone-min'
+    'backbone': 'vendor/backbone-min',
+    'handlebars': 'vendor/handlebars'
   },
   shim: {
     'modernizr': {
@@ -17,6 +18,9 @@ define({
     'backbone': {
         deps: ['underscore', 'jquery'],
         exports: 'Backbone'
+    },
+    'handlebars': {
+        exports:'Handlebars'
     }
   }
 });
